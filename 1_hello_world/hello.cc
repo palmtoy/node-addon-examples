@@ -5,7 +5,7 @@ using namespace v8;
 
 Handle<Value> Method(const Arguments& args) {
   HandleScope scope;
-  return scope.Close(String::New("world"));
+  return scope.Close(String::New("Hello World! ~ Palmtoy"));
 }
 
 void init(Handle<Object> exports) {
